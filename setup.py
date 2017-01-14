@@ -8,7 +8,7 @@ except ImportError:
 
 
 base_path = os.path.dirname(os.path.abspath(__file__))
-long_description = open(os.path.join(base_path, 'README.rst')).read()
+long_description = open(os.path.join(base_path, 'README.rst'), encoding='utf8').read()
 
 setup(
     name="featureforge",
